@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🖼️ C++ Image Viewer
+# 🖼️ GEIV (Good Enough Image Viewer)
 
 ### *A window. Some pixels. Zero bloat.*
 
