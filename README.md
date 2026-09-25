@@ -43,7 +43,7 @@
 
 Because every "simple" image viewer on your system either:
 1. Comes bundled with a photo-editing suite you didn't ask for,
-2. Takes four seconds to boot because it's actually a web browser in a trench coat, or
+2. Takes four seconds to boot because it's actually a web browser in a trench coat
 3. Doesn't exist on a minimal Linux install and you're stuck squinting at `chafa` output in a terminal like it's 1987.
 
 This is ~90 lines of C++ and SFML that does exactly one job: show you an image, let you zoom and pan, and get out of the way.
@@ -57,16 +57,14 @@ This is ~90 lines of C++ and SFML that does exactly one job: show you an image, 
 | Pan by click-and-drag | ✅ |
 | Resizable window | ✅ |
 | Reset view (`R` key) | ✅ |
-| Judging your file organization | ✅ (free, unrequested) |
+| Free and open source | ✅ |
 | Bloat | ❌ |
 
 ## 🎬 Demo
 
 ```
-./image_viewer ~/Pictures/cat_being_a_menace.png
+./geiv ~/Pictures/cat_being_a_menace.png
 ```
-
-*(Insert your own screenshot here once you take one — this README isn't going to scroll through your camera roll for you.)*
 
 ## 📦 Installation
 
@@ -105,11 +103,11 @@ brew install sfml
 Clone it, enter it, build it — the holy trinity:
 
 ```
-git clone https://github.com/your-username/image_viewer.git
+git clone https://github.com/roland-yegon/geiv.git
 ```
 
 ```
-cd image_viewer
+cd geiv
 ```
 
 ```
@@ -124,7 +122,7 @@ cmake ..
 make
 ```
 
-A binary named `image_viewer` appears in `build/`. Congratulations, you compiled something.
+A binary named `geiv` appears in `build/`. Congratulations, you compiled something.
 
 ## 🚀 Usage
 
