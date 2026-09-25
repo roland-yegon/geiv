@@ -127,7 +127,7 @@ A binary named `geiv` appears in `build/`. Congratulations, you compiled somethi
 ## 🚀 Usage
 
 ```
-./image_viewer /path/to/image.png
+./geiv /path/to/image.png
 ```
 
 That's the whole API surface. No flags, no config file, no YAML to argue with.
